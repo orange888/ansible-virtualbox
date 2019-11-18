@@ -32,7 +32,7 @@ MIT
 
 #### Author Information
 
-Mischa ter Smitten
+Orange888
 
 #### Feedback, bug-reports, requests, ...
 

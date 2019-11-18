@@ -2,8 +2,8 @@
 ---
 galaxy_info:
   role_name: virtualbox
-  author: Mischa ter Smitten
-  company: Oefenweb.nl B.V.
+  author: Orange888
+  company: Orange888 Inc
   description: Set up VirtualBox in Debian-like systems
   license: MIT
   min_ansible_version: 2.5.0.0

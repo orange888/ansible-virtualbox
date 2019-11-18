@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Mischa ter Smitten <mtersmitten@oefenweb.nl>
+MAINTAINER Orange888 <mtersmitten@oefenweb.nl>
 
 # python
 RUN apt-get update && \
@@ -11,7 +11,7 @@ RUN rm -rf $HOME/.cache
 # ansible
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y gcc libffi-dev libssl-dev && \
   apt-get clean
-RUN pip install ansible==2.3.2.0
+RUN pip install ansible==2.5.0
 RUN rm -rf $HOME/.cache
 
 # provision
