@@ -6,18 +6,17 @@ galaxy_info:
   company: Orange888 Inc
   description: Set up VirtualBox in Debian-like systems
   license: MIT
-  min_ansible_version: 2.5.0
+  min_ansible_version: 2.7.6
   platforms:
     - name: Ubuntu
       versions:
-        - trusty
         - xenial
         - bionic
-    - name: Debian
-      versions:
-        - wheezy
-        - jessie
-        - stretch
+#    - name: Debian
+#      versions:
+#        - wheezy
+#        - jessie
+#        - stretch
   galaxy_tags:
     - development
     - system
